@@ -1,6 +1,5 @@
 # loading data (choose the LIWC dataset with all used dictionaries)
-#usa_expanded_liwc <- read.csv(file.path(C:/Users/sulavregmi/Desktop/EA/YES_Files/LIWC_Strength/USA_Strength_LIWC_selected_dictionaries.csv))
-# ^ doesn't work? filepath donesnt just start with /Users, so whats it start with?
+#usa_expanded_liwc <- read.csv(file.path("~/sulavregmi/Desktop/EA/YES_Files/LIWC_Strength/USA_Strength_LIWC_selected_dictionaries.csv"))
 usa_expanded_liwc <- read.csv(file.choose())
 
 View(usa_expanded_liwc)
